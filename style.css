@@ -1,0 +1,187 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+}
+#title{
+    background-color: #ff4c68;
+    padding-bottom: 10px;
+    text-align: left;
+}
+.navbar-brand{
+    font-family: Ubuntu;
+    font-size: 2rem;
+}
+.nav-item{
+    padding-left: 10px;
+    font-size: 18px;
+}
+.container-fluid{
+    padding: 3% 15% ;
+}
+.info{
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: serif;
+    color: white;
+}
+.dawnload,
+.dawnload1{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 8px 20px;
+    border-radius: 4px;
+}
+.dawnload{
+    margin-right: 8px;
+}
+.dawnload1{
+    background-color: transparent;
+    border: 1px solid white;
+}
+#apple{
+    margin-right: 10px;
+}
+.mobil{
+    width: 25%;
+    transform: rotate(25deg);
+    padding-right: 100px;
+    position: absolute;
+    margin: 3% 13%;
+    border-radius: 20px;
+}
+/* section of the feature */
+
+#feature{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+#page2-div{
+    text-align: center;
+    padding: 5%;
+    font-family: serif;
+}
+.feature-info{
+    font-family: sans-serif;
+    color: gray;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem ;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/* section of testamonil */
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+h2{
+    line-height: 1.5;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonials-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+/* pricing section */
+
+#price{
+    margin: 100px;
+    
+}
+.card{
+    margin: 3%;
+}
+
+/* last section */
+
+#last{
+    background-color: #ef8172;
+    padding: 7% 15%;
+    color: #fff;
+}
+#column{
+    
+    padding-top: 5%;
+}
+.dawnloada,
+.dawnloadb{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 8px 20px;
+    border-radius: 4px;
+}
+.dawnloada{
+    margin-right: 8px;
+}
+.dawnloadb{
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+/* footer section */
+#footer{
+    
+    padding: 2%;
+    font-size: 14px;
+}
+
+@media (max-width: 992px){
+    .info{
+        font-size: 2rem;
+        text-align: left;
+    }
+    .dawnload1{
+        padding: 10px;
+    }
+    .mobil{
+        position: static;
+        transform: rotate(0deg); 
+        padding: 30px 0px;
+    }
+    
+}
+@media (max-width: 824px){
+    .container-fluid{
+        text-align: center;
+    }
+}
+@media (min-width: 300px) and (max-width: 824px){
+    .dawnload{
+        margin-bottom: 8px;
+        margin-right: 0px;
+    }
+    .dawnload1{
+        padding: 8px 20px;   
+    }
+    .dawnloada{
+        
+        margin-right: 30px;
+    }
+    #appl{
+        margin-bottom: 5px;
+    }
+    #apple{
+        padding-right: 3px;
+    }
+    #apple1{
+        padding-right: 10px;
+    }
+    .dawnloadb{
+        padding: 8px 21px;
+        margin-left: -27px;
+    }
+   
+}
